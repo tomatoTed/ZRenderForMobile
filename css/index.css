@@ -1,0 +1,243 @@
+body,
+html {
+  /*height: 100%;*/
+  width: 100%;
+  background: #000104;
+  overflow-x: hidden;
+  font-size: 0;
+  font-family: PingFang SC;
+  line-height: 0.25rem;
+  letter-spacing: 0.01rem;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+}
+.nav {
+  width: 3.75rem;
+  height: 4.12rem;
+  background: url('../image/index/navbg.png?123') no-repeat center/100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.nav-wrap {
+  position: relative;
+  margin-top: 3.4rem;
+}
+.nav-iconlf {
+  width: 0.075rem;
+  height: 0.4368rem;
+  position: absolute;
+  left: -0.05rem;
+  top: -0.05rem;
+}
+.nav-iconrt {
+  width: 0.075rem;
+  height: 0.4368rem;
+  position: absolute;
+  right: -0.05rem;
+  top: -0.05rem;
+}
+.nav-iconlf img,
+.nav-iconrt img {
+  width: 100%;
+  height: 100%;
+}
+.nav-btn {
+  width: 1.49rem;
+  height: 0.33rem;
+  background: #C41A18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-btn img {
+  width: 0.2165rem;
+  height: 0.1855rem;
+}
+.nav-btn div {
+  margin-left: 0.07rem;
+  /* width: 0.83rem; */
+  /* height: 0.28rem; */
+  font-size: 0.2rem;
+
+  font-weight: 400;
+
+  color: #ffffff;
+}
+.nav-time-se {
+  margin-top: 0.14rem;
+  /* height: 0.17rem; */
+  font-size: 0.12rem;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.5;
+}
+/* 规则 */
+.rule {
+  position: relative;
+  /* bottom: 0.6rem; */
+  width: 3.35rem;
+  margin: 0 auto 0.12rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 0.08rem;
+  color: #fff2db;
+  padding: 0.06rem 0.14rem 0.06rem 0.15rem;
+}
+.rule h4 {
+  font-size: 0.14rem;
+  font-weight: bold;
+  margin-bottom: 0.04rem;
+}
+.rule-group {
+  font-size: 0.12rem;
+  font-weight: 400;
+  letter-spacing: 0.007rem;
+}
+.rule-group li {
+  position: relative;
+  margin-bottom: 0.03rem;
+  line-height: 0.2rem;
+}
+.rule-group li a {
+  text-decoration: underline;
+  color:#C41A18 ;
+}
+.rule-g-li::after {
+  content: '';
+  position: absolute;
+  left: -0.08rem;
+  top: 0.08rem;
+  width: 0.04rem;
+  height: 0.04rem;
+  border-radius: 50%;
+  background: #fff2db;
+}
+.rule-x-li::after {
+  content: '*';
+  font-size: 0.12rem;
+  position: absolute;
+  left: -0.08rem;
+  top: 0.02rem;
+}
+/* 照片墙 */
+#waterfall {
+  width: 3.35rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+    /* top: -0.5rem; */
+  /* padding-top: 1.04rem; */
+}
+
+.frame-wrap {
+  width: 1.56rem;
+  height: 2.77rem;
+  margin-bottom: 0.15rem;
+  padding: 0.02rem;
+  position: relative;
+  overflow: hidden;
+}
+#waterfall li:nth-of-type(2n-1) {
+  margin-right: 0.2rem;
+  /* top: -1.04rem; */
+}
+
+.frame-wrap img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.04rem;
+}
+.frame-num {
+  padding: 0.02rem 0.05rem 0.02rem 0.04rem;
+  position: absolute;
+  left: -0.03rem;
+  top: 0.46rem;
+  background: url('../image/index/banner-icon.png') no-repeat center/100% 100%;
+  font-size: 0.12rem;
+  font-weight: bold;
+  line-height: 0.14rem;
+  text-align: center;
+  color: #ffffff;
+}
+.frame-my {
+  width: 0.94rem;
+  padding: 0.02rem 0;
+  position: absolute;
+  right: -0.22rem;
+  top: 0.19rem;
+  font-size: 0.12rem;
+  line-height: 0.14rem;
+  text-align: center;
+  color: #ffffff;
+  background: #C41A18;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari and Chrome */
+}
+.shangla {
+  display: none;
+  color: #ffffff;
+  font-size: 0.14rem;
+  text-align: center;
+}
+/* hide-modal弹框 */
+.hint-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+}
+.hint-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #111420;
+  opacity: 0.83;
+}
+.hint-box {
+  width: 2.83rem;
+  height: 2.02rem;
+  margin: 2.61rem auto 0;
+  padding: 0 0.3rem;
+  background: #ffffff;
+  border-radius: 0.23rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hint-text-a {
+  width: 0.42rem;
+  height: 0.42rem;
+  margin-top: 0.14rem;
+  margin-bottom: 0.14rem;
+}
+.hint-text-a img {
+  width: 100%;
+  height: 100%;
+}
+.hint-text-b {
+  text-align: center;
+  font-size: 0.25rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #111420;
+  letter-spacing: 0.04rem;
+  margin-bottom: 0.16rem;
+}
+.hint-text-c {
+  text-align: center;
+  font-size: 0.14rem;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #999999;
+  letter-spacing: 0.01rem;
+}

@@ -1,0 +1,14 @@
+@font-face {font-family: "akaitong";
+  src: url('akaitong.ttf');
+}
+@font-face {font-family: "fzsk";
+  src: url('FZShangKJW.ttf');
+}
+/* @font-face{
+  font-family: 'akaitong';
+  src: url('akaitong.eot'); 
+  src: url('akaitong.eot?#iefix') format('embedded-opentype'),
+      url('akaitong.woff') format('woff'), 
+      url('akaitong.ttf')  format('truetype'), 
+      url('akaitong.svg#akaitong') format('svg'); 
+} */
