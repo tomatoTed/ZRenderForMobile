@@ -5,5 +5,8 @@
 ZRender是echarts的2d渲染库
 https://github.com/ecomfe/zrender
 
+## 部分截图
+
+
 ## LICENSE
 MIT
