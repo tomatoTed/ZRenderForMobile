@@ -6,7 +6,10 @@ ZRender是echarts的2d渲染库
 https://github.com/ecomfe/zrender
 
 ## 部分截图
-
+![image](https://github.com/tomatoTed/ZRenderForMobile/blob/master/dist/1.jpg)
+![image](https://github.com/tomatoTed/ZRenderForMobile/blob/master/dist/2.jpg)
+![image](https://github.com/tomatoTed/ZRenderForMobile/blob/master/dist/3.jpg)
+![image](https://github.com/tomatoTed/ZRenderForMobile/blob/master/dist/4.jpg)
 
 ## LICENSE
 MIT
